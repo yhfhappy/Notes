@@ -32,6 +32,28 @@
 ## 替换节点：
 - 方法：父节点.replace(要替换的节点,被替换的节点);
 
+## 位置：
+```
+offsetLeft
+offsetTop
+```
+> 注意：offsetLeft / offsetTop不包含外边框，也就是外边框之外，设置了margin对它们没什么影响；
 
+```
+offsetWidth
+offsetHeight
+```
+> 注意：offsetWidth / offsetHeight不包含margin，外边框包含在内。
 
+```
+clientWidth
+clientHeight
+```
+> 注意：clientWidth / clientHeight不包含外边框，也不包含margin，但包含padding；
 
+```
+scrollWidth
+scrollHeight
+scrollLeft
+scrollTop
+```
